@@ -15,7 +15,7 @@ $.extend($.expr[':'], {
 
 $(document).ready(function(){
 setup();
-$('.font_face').text('▶▼ | ▸▾ | ► | BD bd p');
+$('.font_face').text('\u25b6\u25bc | \u25b8\u25be | \u25ba | BD bd p');
 // Live text preview
 
 $('nav').on('keyup', '#live_preview', function(){
